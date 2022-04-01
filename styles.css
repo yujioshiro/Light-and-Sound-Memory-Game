@@ -1,0 +1,99 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.start-button-modes {
+  margin-bottom: 20px;
+}
+
+.game-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.gameplay-button {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+#button-1 {
+  background-color: #e80004;
+}
+
+#button-1:active, #button-1.lit {
+  background-color: #ff6367;
+}
+
+#button-2 {
+  background-color: #0ec900;
+}
+
+#button-2:active, #button-2.lit {
+  background-color: #12FF00;
+}
+
+#button-3 {
+  background-color: #0038ff;
+}
+
+#button-3:active, #button-3.lit {
+  background-color: #00adff;
+}
+
+#button-4 {
+  background-color: #faf11f;
+}
+
+#button-4:active, #button-4.lit {
+  background-color: #f4ff80;
+}
+
+#button-5 {
+  background-color: #ec720d;
+}
+
+#button-5:active, #button-5.lit {
+  background-color: #f49e58;
+}
+
+#button-6 {
+  background-color: #8630ff;
+}
+
+#button-6:active, #button-6.lit {
+  background-color: #a96cff;
+}
+
+.disabledButton {
+  pointer-events: none;
+}
