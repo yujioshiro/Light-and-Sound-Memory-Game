@@ -34,15 +34,20 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app!
+- [x] Easy mode (which uses 4 buttons) and a hard mode (which uses 6 buttons)
 
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![](gif1-link-here)
-![](gif2-link-here)
-![](gif3-link-here)
-![](gif4-link-here)
+
+- This gif shows the easy mode and stop button.
+![](https://github.com/yujioshiro/Light-and-Sound-Memory-Game/blob/main/gif1.gif)
+
+- This gif shows the hard mode and stop button.
+![](https://github.com/yujioshiro/Light-and-Sound-Memory-Game/blob/main/hardmodeDEMO.gif)
+
+- This gif shows what happens when a player loses.
+![](https://github.com/yujioshiro/Light-and-Sound-Memory-Game/blob/main/loseDEMO.gif)
 
 ## Reflection Questions
 
